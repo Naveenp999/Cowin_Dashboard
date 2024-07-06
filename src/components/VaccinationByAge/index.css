@@ -1,0 +1,27 @@
+.graph {
+  background-color: #1c1c2b;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sub-heading {
+  color: #cbd5e1;
+  font-size: 15px;
+  font-weight: 500 ;
+}
+@media screen and (min-width: 768px) {
+  .sub-heading {
+    font-size: 30px;
+  }
+  .graph {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+}
+.sub-graph {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
